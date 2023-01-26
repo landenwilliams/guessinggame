@@ -3,21 +3,7 @@
         <title>Landen's Guessing Game</title>
         <link href="style.css">
         <script src="index.js" defer></script>
-        <style>
-            
-            .container { 
-                margin: auto;
-                padding-top: 50;
-                text-align: center;
-                height: 500px;
-                width: 500px;
-                background-color: gray;
-
-            }
-
-
-        </style>
-
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="container">
@@ -30,7 +16,7 @@
                 
                 <input type="number" id="textBox" placeholder="enter guess here"/>
                 <button class="submit" id="submit" >Submit</button>
-                <input type="button" id="playAgain" value="Play Again" onclick="window.location.reload();"/>
+                <input type="button" id="playAgain" value="Play Again" />
                 <input type="button" id="hint" value="Hint" onclick="hint()"/>
                 
             </h4>
